@@ -85,5 +85,26 @@
     width: 52%;
     margin: 0;
     /* background-color: aqua; */
+  }  
+}
+
+@media (min-width: 1280px) {
+  .header-wrapper {
+    /* flex-wrap: nowrap; */
+    width: 77%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
   }
+
+  .header-logo {
+    width: 20%;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .header-menu {
+    width: 32.8%;
+    margin: 0;
+    /* background-color: aqua; */
+  }  
 }
