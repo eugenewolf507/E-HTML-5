@@ -3,16 +3,16 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .container {
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
 }
 
 .d-flex {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
