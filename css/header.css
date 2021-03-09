@@ -52,8 +52,6 @@
 .menu-item > a:hover {
   color: #0078aa;
 }
-<<<<<<< HEAD
-=======
 
 @media (min-width: 768px) {
   .header-wrapper {
@@ -73,6 +71,5 @@
     width: 52%;
     margin: 0;
     /* background-color: aqua; */
-  }  
+  }
 }
->>>>>>> dev
