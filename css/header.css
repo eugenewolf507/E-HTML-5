@@ -1,3 +1,51 @@
 .header {
-  outline: 1px solid red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrapper {
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  width: 100%;
+  padding-top: 3.5%;
+  padding-bottom: 1.5%;
+  text-align: center;
+}
+
+.header-menu {
+  width: 83%;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+
+.menu-list {
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.menu-item > a:hover {
+  color: #0078aa;
 }
