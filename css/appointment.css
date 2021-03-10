@@ -1,5 +1,6 @@
 .appointment {
   outline: 1px solid rgb(3, 238, 140);
+  padding-top: 55px;
 }
 
 .appointment__image {
@@ -10,17 +11,18 @@
 .appointment__wrapper {
   width: 100%;
   height: auto;
-  padding: 5%;
+  padding: 17px 9%;
 }
 
 .appointment__heading {
-  text-align: center;
-  font-size: 2rem;
   padding-bottom: 6px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
 }
 
 .appointment__text {
-  padding-bottom: 3px;
+  padding-bottom: 12px;
   font-size: 0.88rem;
   text-transform: uppercase;
   text-align: center;
@@ -29,4 +31,46 @@
 .appointment__form {
   display: flex;
   flex-direction: column;
+}
+
+.appointment__form > input {
+  padding-top: 29px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #363636;
+  outline: none;
+}
+
+.appointment__form > input::placeholder {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+  color: #363636;
+}
+
+.appointment__form > input:focus {
+  border: none;
+  border-bottom: 1px solid #363636;
+}
+
+.appointment__form > input:last-of-type {
+  margin-bottom: 23px;
+}
+
+.appointment__form > input[type="date"]::-webkit-datetime-edit {
+  padding-left: 10px;
+  color: #363636;
+  font-style: italic;
+}
+
+.appointment__form > button {
+  align-self: center;
+  width: 92px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #0078aa;
+  color: #fff;
 }
