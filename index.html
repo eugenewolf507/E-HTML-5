@@ -158,12 +158,38 @@
         </div>
       </section>
       <section class="offers">Offers</section>
-      <section class="appointment">Appointment</section>
+      <section class="appointment">
+        <img
+          src="./img/contact_image.jpg"
+          alt="doctor with stetoscope"
+          class="appointment__image"
+        />
+        <div class="appointment__wrapper">
+          <h2 class="appointment__heading">Make an appointment</h2>
+          <p class="appointment__text">And we will contact you</p>
+          <form action="#" class="appointment__form">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <input type="tel" placeholder="Phone" />
+            <input type="date" />
+
+            <input list="datalist" placeholder="Subject" />
+            <datalist id="datalist">
+              <option value="Ophthalmology"></option>
+              <option value="Dentistry"></option>
+              <option value="Cardiology"></option>
+              <option value="Pediatrics"></option>
+              <option value="Laboratory"></option>
+              <option value="Radiology"></option>
+            </datalist>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <p class="copyright">
-        Copyright &copy; 2021 EPAM
-      </p>
+      <p class="copyright">Copyright &copy; 2021 EPAM</p>
     </footer>
   </body>
 </html>
