@@ -138,7 +138,17 @@
             <input type="email" placeholder="Email" />
             <input type="tel" placeholder="Phone" />
             <input type="date" />
-            <input type="text" placeholder="Subject" />
+
+            <input list="datalist" />
+            <datalist id="datalist">
+              <option value="Ophthalmology"></option>
+              <option value="Dentistry"></option>
+              <option value="Cardiology"></option>
+              <option value="Pediatrics"></option>
+              <option value="Laboratory"></option>
+              <option value="Radiology"></option>
+            </datalist>
+
             <button type="submit">Submit</button>
           </form>
         </div>
