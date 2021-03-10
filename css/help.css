@@ -62,3 +62,18 @@
     padding: 28px 10% 28px;
   }
 }
+
+@media (min-width: 1280px) {
+  .help {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+  }
+  .help__card-wrapper {
+    grid-row-gap: 5%;
+    grid-column-gap: 3%;
+  }
+
+  .help .card {
+    padding: 27px 5% 25px;
+  }
+}
