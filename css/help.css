@@ -41,3 +41,24 @@
 .help .card__text {
   font-size: 0.87rem;
 }
+
+@media (min-width: 768px) {
+  .help {
+    padding: 60px 2% 82px;
+  }
+
+  .help__text {
+    padding-bottom: 23px;
+  }
+
+  .help__card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+  }
+
+  .help .card {
+    margin: 0;
+    padding: 28px 10% 28px;
+  }
+}
