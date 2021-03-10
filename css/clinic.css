@@ -87,12 +87,21 @@
 
   .about-text-wrapper {
     width: 42.5%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: left;
     /* background-color: aqua; */
   }
 
   .activities-item::before {
     padding-right: 7px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-text-wrapper {
+    width: 27%;
+    margin: 0 auto 0 30px;
+    text-align: left;
+    /* background-color: aqua; */
   }
 }
