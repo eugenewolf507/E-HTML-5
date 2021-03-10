@@ -1,3 +1,147 @@
 .offers {
   outline: 1px solid orange;
+  padding: 38px 4% 7px;
+}
+
+.offers__heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.offers__text {
+  padding-bottom: 22px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.offers__card-wrapper {
+}
+
+.offers__card {
+  padding-top: 40px;
+  padding-bottom: 27px;
+}
+
+.offers__card:nth-of-type(odd) {
+  color: #fff;
+  background-color: #47c9e5;
+}
+
+.offers__card:nth-of-type(even) {
+  margin: 15px 0;
+  outline: 1px solid #0078aa;
+  background-color: #fff;
+  color: #0078aa;
+}
+
+.offers__card > h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.offers__card > p {
+  text-align: center;
+  font-size: 3.7rem;
+  font-weight: 700;
+}
+
+.offers__card > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+.offers__card > ul > lh {
+  font-style: italic;
+  padding-top: 11px;
+  padding-bottom: 7px;
+}
+
+.offers__card > ul > li {
+  font-size: 0.8rem;
+  padding-top: 27px;
+}
+
+.offers__card > button {
+  display: block;
+  margin: 0 auto;
+  padding: 11px 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #0078aa;
+  border: 3px solid #0078ab;
+}
+
+.offers__card > button:hover {
+  background-color: #0078aa;
+  /* color: #fff; */
+  border: 3px solid #0078ab;
+}
+
+@media (min-width: 768px) {
+  .offers {
+    padding: 38px 2% 7px;
+    background-image: url(../img/pricing_bg.jpg);
+    background-size: 159%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .offers__card-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .offers__card {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+  }
+
+  .offers__card:nth-of-type(odd) {
+    margin: 18px 0 15px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  .offers__card:nth-of-type(even) {
+    padding-top: 53px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .offers {
+    padding: 80px 2% 7px;
+    background-size: 104%;
+  }
+
+  .offers__text {
+    padding-bottom: 50px;
+  }
+
+  .offers__card {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  .offers__card:nth-of-type(odd) {
+    margin: 30px 0 28px;
+    padding-top: 47px;
+    padding-bottom: 25px;
+  }
+
+  .offers__card:nth-of-type(even) {
+    padding-top: 77px;
+    padding-bottom: 0;
+    margin: 0;
+  }
 }
