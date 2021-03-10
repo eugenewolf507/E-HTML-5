@@ -103,7 +103,6 @@
 
   .appointment__heading {
     text-align: left;
-    text-transform: capitalize;
   }
 
   .appointment__text {
@@ -112,5 +111,15 @@
 
   .appointment__form > button {
     align-self: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .appointment {
+    padding-top: 77px;
+  }
+
+  .appointment__wrapper {
+    padding: 63px 2% 60px;
   }
 }
