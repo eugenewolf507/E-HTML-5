@@ -66,11 +66,51 @@
 .appointment__form > button {
   align-self: center;
   width: 92px;
-  padding: 14px 0;
-  border: none;
+  padding: 11px 0;
+  border: 3px solid #0078ab;
   border-radius: 12px;
+  font-weight: 700;
   text-align: center;
   font-size: 0.9rem;
   background-color: #0078aa;
   color: #fff;
+}
+
+.appointment__form > button:hover {
+  background-color: #fff;
+  color: #0078aa;
+  border: 3px solid #0078ab;
+}
+
+@media (min-width: 768px) {
+  .appointment {
+    display: flex;
+    flex-direction: row;
+    padding-top: 45px;
+  }
+
+  .appointment__image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: 10% 0;
+  }
+
+  .appointment__wrapper {
+    width: 50%;
+    padding: 57px 4% 60px 4%;
+  }
+
+  .appointment__heading {
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  .appointment__text {
+    text-align: left;
+  }
+
+  .appointment__form > button {
+    align-self: start;
+  }
 }
