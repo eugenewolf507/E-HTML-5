@@ -61,3 +61,59 @@
 .button:hover svg path {
   fill: #0078aa;
 }
+
+@media (min-width: 768px) {
+  .home-section {
+    padding-top: 45px;
+    /* padding-top: 47px; */
+    /* background-color: coral; */
+  }
+
+  .home-wrapper {
+    padding-top: 192px;
+    padding-bottom: 127px;
+    /* width: 95%; */
+    text-align: left;
+    /* background-image: url(../img/lady.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-position:  35% 0%;
+  }
+
+  .home-wrapper h1 {
+    width: 600px;
+    /* width: 65%; (FOR ME)*/
+    margin-left: 17px;
+  }
+
+  .home-wrapper p {
+    width: 450px;
+    margin-left: 17px;
+  }
+
+  .home-battons {
+    width: 200px;
+    /* width: 197px; (FOR ME)*/
+    margin-left: 17px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-wrapper h1 {
+    /* width: 65%; (FOR ME)*/
+    margin-left: 170px;
+    /* margin-left: 175px;  (FOR ME) */
+    /* background-color: aqua; */
+  }
+
+  .home-wrapper p {
+    margin-left: 170px;
+    /* margin-left: 175px;  (FOR ME) */
+    /* background-color: aqua; */
+  }
+
+  .home-battons {
+    margin-left: 170px;
+    /* margin-left: 175px;  (FOR ME) */
+  }
+}
