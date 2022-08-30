@@ -1,3 +1,31 @@
 .up-button {
-  outline: 1px solid navy;
+  font-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.up-button:hover {
+  color: #0078aa;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0078aa;
+  border: 2px solid #0078ab;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.upbutton-position {
+  position: fixed;
+  bottom: 19px;
+  right: 19px;
 }

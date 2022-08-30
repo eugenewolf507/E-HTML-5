@@ -1,3 +1,79 @@
 .help {
+  /* DELETE */
   outline: 1px solid rgb(134, 236, 134);
+  /* DELETE */
+
+  padding: 29px 4% 7px;
+  background-image: url("../img/services_bg.jpg");
+}
+
+.help__heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 6px;
+}
+
+.help__text {
+  padding-bottom: 3px;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.help__card-wrapper {
+}
+
+.help .card {
+  padding: 23px 6% 28px;
+  background-color: #fff;
+  margin: 25px 0;
+}
+
+.help .card__image {
+}
+
+.help .card__heading {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  font-size: 1rem;
+}
+
+.help .card__text {
+  font-size: 0.87rem;
+}
+
+@media (min-width: 768px) {
+  .help {
+    padding: 60px 2% 82px;
+  }
+
+  .help__text {
+    padding-bottom: 23px;
+  }
+
+  .help__card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+  }
+
+  .help .card {
+    margin: 0;
+    padding: 28px 10% 28px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .help {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+  }
+  .help__card-wrapper {
+    grid-row-gap: 5%;
+    grid-column-gap: 3%;
+  }
+
+  .help .card {
+    padding: 27px 5% 25px;
+  }
 }
